@@ -1,0 +1,1069 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------------------------------------------------- Reset StyleSheet (on top)*/	
+body{
+		font-family: segoe ui;
+		background-color: #fbce11;
+	}
+/*--------------------------------------------------------------------------------- Navigation Bar*/
+.nav-parent{
+		display:block;
+		top:0;
+		width:100%;
+		position: sticky;
+		height: 9vw;
+        z-index: 2;
+	}
+
+.path-1-cc {
+		position: absolute;
+		filter: drop-shadow(0px 24px 12px rgba(159, 14, 14, 0.588));
+		fill: url(#Path_1_cc);
+		z-index: -1;
+		width: auto;
+		height: auto;
+		top:0;
+		}
+		
+.logo-nav-child {
+		display: flex;
+		position: absolute;
+		top:1vw;
+		left:1vw;
+		width: 30vw;
+		height: auto;
+	}
+
+.logo-nav-child:hover {
+    background-image: url(images/favicon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 1vw;
+}
+
+.nav-links{
+		display: flex;
+		position: absolute;
+		right: 0%;
+		top: 50%;
+		transform: translate(0%, -50%);
+		list-style: none;
+		justify-content: space-around;
+		align-items: center;
+		width: 50vw;
+		height: 6.3125vw;
+	}
+
+.link-text {
+		color: black;
+		text-decoration: none;
+		font-size: 2.3vw;
+		position: relative;
+		display:inline-block
+	}
+
+.link-text::before {
+		content:'';
+		position: absolute;
+		width: 100%;
+		transform: scaleX(0);
+		height: 0.3vw;
+		bottom: 0;
+		left: 0;
+		background-color: #474436;
+		transform-origin: bottom right;
+		transition: transform 0.25s ease-out;
+		opacity:0.5;
+	}
+
+.link-text:hover::before{
+		transform: scaleX(1);
+		transform-origin: bottom left;
+	}
+
+/*------------------------------------------------------------------------------------------------*/
+/*----------------------------------------HOMEPAGE------------------------------------------------*/
+/*--------------------------------------------------------------------------------- Home Content 1*/
+.home-content-1{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top: 3vw;
+}
+	
+	.home-content-1-image{
+		background: none;
+	}
+	
+	.home-content-1-image img {
+		width: 400px;
+	}
+	
+	.home-content-1-text{
+		width: 700px;
+		height: auto;
+		background: none;
+		text-align: center;
+	}
+	
+	.home-content-1-text h1{
+		font-family: segoe script;
+		font-size: 55px;
+		margin-bottom: 10px;
+	}
+	
+	.home-content-1-text p1{
+		font-family: segoe UI;
+		font-size: 27px;
+	}
+    
+    .button1{
+        font-family: segoe UI;
+        margin-top: 20px;
+        display: inline-block;
+        padding: 15px 40px;
+        font-size: 25px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #FBCE11;
+        background-color: #474436;
+        border: none;
+        border-radius: 39px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button1:hover {
+        background-color: #000000;
+        color: white;
+
+    }
+
+    .path-2-cc {
+            position: relative;
+            filter: drop-shadow(0px 24px 12px rgba(159, 14, 14, 0.588));
+            fill: url(#Path_1_cc);
+            z-index: 0;
+            width: 100%;
+            height: auto;
+            top:30px;
+            overflow: auto;
+            }
+
+/*--------------------------------------------------------------------------------- Home Content 2*/
+.parallax-bg{
+    width: 100%;
+    height: calc(1115px - 20vw);
+    background-image: url(images/home/content2bg.png);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-c2-container{
+    position: relative;
+    height: auto;
+    width: 45vw;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    left: 55px;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-c2-container > h2{
+    font-family: segoe script;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.home-c2-container > p2{
+    font-family: segoe UI;
+    font-size: 27px;
+}
+
+/*--------------------------------------------------------------------------------- Home Content 3*/
+.home-content-3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+    z-index: 1;
+}
+
+.hc3-image-box {
+    width:400px;
+    height: auto;
+}
+
+.hc3-image1{
+    height: auto;
+    width: 504px;
+ 
+}
+
+.hc3-image2{
+    position: absolute;
+    top: 2vw;
+    height: auto;
+    width: 504px;
+    opacity: 0;
+}
+
+.hc3-image-box:hover .hc3-image1{
+    opacity: 0;
+}
+
+.hc3-image-box:hover .hc3-image2{
+    opacity: 1;
+}
+
+.hc3-text{
+    width: 700px;
+    height: auto;
+    text-align: center;
+}
+
+.hc3-text > h3{
+    font-family: segoe script;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.hc3-text > p3{
+    font-family: segoe UI;
+    font-size: 27px;
+}
+
+/*----------------------------------------------------------------------------- Sign-up Newsletter*/
+.newsletter-su-content{
+    width: 100%;
+    height: auto;
+    background-color: #474436;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nl-form{
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 25px;
+}
+
+.nl-title{
+    font-size: 44px;
+}
+
+.f-name {
+    font-size: 34px;
+}
+
+.nl-name {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    order: 1;
+    margin-left: 50px;
+}
+
+.nl-email {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    order: 2;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.nl-subscribe {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    order: 3;
+    height: 49px;
+    width: 258px;
+    font-size: 30px;
+     margin-right: 50px;
+    margin-left: 50px;
+}
+
+.textbox{
+    width: 348px;
+    height: 42px;
+    padding-top: 10px;
+    
+}
+
+.nl-offer{
+    font-size: 25px;
+}
+
+.nl-offer b{
+    text-shadow: 2px 2px 5px red;
+}
+
+/*--------------------------------------------------------------------------- Social Media Section*/
+.social-media-section{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.twitcontainer{
+    height:auto;
+    width: 890px;
+}
+
+.sm-icons{
+    width: 15vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+#facebook {
+  background-image: url(images/home/Facebook%20Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 160px;
+  height: 80px;
+   
+}
+
+#youtube {
+  background-image: url(images/home/Youtube%20Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 160px;
+  height: 80px;
+ 
+}
+
+#instagram {
+  background-image: url(images/home/Instagram%20Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 170px;
+  height: 80px;
+ 
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*----------------------------------------CAFE PAGE-----------------------------------------------*/
+/*-------------------------------------------------------------------------------Cafe Hero Content*/
+.cafe-hero{
+    width: 100%;
+    height: calc(1130px - 10vw);
+    background-image: url(images/cafe/cafe-hero-bg.png);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cafe-opacity-container{
+    position: relative;
+    height: auto;
+    width: 75vw;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    height: auto;
+    text-align: center;
+    left: 0px
+}
+
+.cafe-h1{
+    font-size: 65px;
+    margin-bottom: 10px;
+    font-family: segoe script;
+}
+
+.cafe-p1{
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: segoe UI;
+}
+
+.ch-bottom-links{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.opening-times{
+    height: auto;
+    width: 300px;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ch-bottom-links > a{
+    width: 300px;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*------------------------------------------------------------------------------SPECIALS-Cafe Menu*/
+.cafe-menu-header{
+    text-align: center;
+    background-color: #474436;
+    font-size: 36px;
+    font-family: segoe script;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.menu-special{
+    width: 85%;
+    background-color: #474436;
+    display: inline-block;
+}
+
+.menu-title{
+    font-size: 30px;
+    font-family: Segoe Script;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.special-contents{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.special-container{
+    width:20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s-img{
+    width: 20vw;
+}
+
+.special-name{
+    font-size: 2vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menu-info{
+    display: inline-block;
+    width: 14vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------MEALS-Cafe Menu*/
+
+.menu-meals-container{
+    background-color: #474436;
+}
+
+.meals-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.meals-column1of4{
+    width: 25%;
+}
+
+.meals-column3of4{
+    width: 25%;
+}
+
+.meal-title{
+    color:#FFFFFF;
+    font-family: Segoe Script;
+    font-size: 29px;
+    border-top: 3px;
+}
+
+.meal-info{
+    color: #EFFEBE;
+}
+
+
+/*-----------------------------------------------------------------------------HOTDRINKS-Cafe Menu*/
+
+.hotdrinks-container{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hd-right{
+    width: 550px;
+    height: auto;
+    padding: 5px;
+}
+
+.hd-left{
+    background-color: #474436;
+    width: 50%;
+    height: 315px;
+    padding: 5px;
+}
+
+.hd-c-text{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Segoe Script
+}
+
+.hotdrinks{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Segoe Script;
+    color: #FFFFFF;
+}
+
+.options{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #EFFEBE;
+}
+
+.hd-column-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hdr-title{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Segoe Script;
+    color: #000000;
+}
+
+.dgcr-text{
+    font-family: Segoe UI;
+    text-align: justify;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.button-dgcr{
+    font-family: segoe UI;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #FBCE11;
+    background-color: #474436;
+    border: none;
+    border-radius: 39px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 60px;
+}
+
+/*----------------------------------------------------------------------------SOFTDRINKS-Cafe Menu*/
+.softdrinks-container{
+    display: flex;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sd-1{
+    background-color: #474436;
+    width: 50%;
+    height: 185px;
+    padding: 5px;
+}
+
+.softdrinks{
+        width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Segoe Script;
+    color: #FFFFFF;
+}
+
+.sd-text {
+    color: #FFFFFF;
+font-size: 20px;
+font-family: Segoe Script;
+}
+
+.sd-flavours{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #EFFEBE;
+}
+
+.one-img{
+    width: auto;
+    height: 164px;
+}
+
+.sd-2{
+    width: 550px;
+    height: auto;
+    padding: 5px;
+}
+
+.button-one{
+    font-family: segoe UI;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 7px 29px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #FBCE11;
+    background-color: #474436;
+    border: none;
+    border-radius: 39px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 125px;
+}
+
+.loy-img-con{
+    height: 170px;
+    padding-top: 10px;
+}
+
+.loyaltyimg{
+    height: 155px;
+}
+
+.bottleimg{
+    height: 150px;
+}
+
+/*-------------------------------------------COURSES-----------------------------------------------------*/
+
+  #myVideo {
+      width: 100%;
+    }
+
+.courses-title {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 50%;
+        top: 35vw;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+.courses-text{
+        color:#FFFFFF;
+        font-family: Segoe Script;
+        font-size: 53px;
+    }
+
+.courses-content-2{
+        display: flex;
+        top: 66vw;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+.cc-2-left{
+        width: 550px;
+        text-align: center;
+    }
+
+.cc-2-right{
+        width: 550px;
+        text-align: center;
+    }
+
+.why-title-cc2{
+        display: block;
+        font-size: 40px;
+        font-family: Segoe Script;
+        margin-bottom: 10px;
+        padding: 30px;
+    }
+
+.tall-img{
+        width: 550px;
+    }
+
+.wide-img{
+        width: 550px;
+        margin-top: 30px;
+    }
+
+.cc2-text{
+    font-size: 35px;
+}
+
+.cc2-qoutes{
+    font-size: 40px;
+    font-family: Segoe Script;
+}
+
+.courses-content2{
+    background-color: #474436;
+    width: 100%;
+    text-align: center;
+}
+
+.cc2-title{
+    display: block;
+    font-size: 40px;
+    font-family: Segoe Script;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: #ffffff;
+    }
+
+.cc2-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.cc2-img1{
+    width: 31vw;
+}
+
+.cc2-title2{
+    font-size: 30px;
+    text-decoration: underline;
+   
+}
+
+.cc2-text-con{
+    width: 50vw;
+    padding: 15px;
+    
+}
+
+.cc2-text2{
+    font-size: 26px;
+}
+
+.f-title-con{
+    text-align: center;
+}
+
+.courses-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+    height: 350px;
+    text-align: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.f-title{
+    font-size: 35px;
+}
+
+.cf-enquiry {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 120px;
+}
+
+.cfe-con{
+    width: 50%;
+}
+
+.cfe-con-ai{
+    width: 100%;
+}
+
+.cf-enquiry-text{
+    font-size: 25px;
+}
+
+.cf-enquiry-box{
+    width: 260px;
+    height: 30px;
+}
+
+.cf-enquiry-box-ai{
+    width: 260px;
+    height: 30px;
+    width: 610px;
+    height: 120px;
+}
+
+.button-courses {
+    font-family: segoe UI;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 7px 29px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #FBCE11;
+    background-color: #474436;
+    border: none;
+    border-radius: 39px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: -60px;
+}
+
+.f-end{
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------- footer*/
+footer{
+    background-color: #474436;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+
+}
+/*------------------------------------RESPONSIVE CSS DESIGN-----------------------------------*/
+/*-------------------------------------------------------------------------First Break Point--*/
+@media screen and (max-width: 1099px) {
+/*----------------------------------------------------------------------------Navigation Bar--*/
+.line{
+    width: 3vw;
+    height: 0.5vw;
+    background: #474436;
+    margin: 0.5vw;
+}
+    
+.hamburger{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    cursor: pointer;
+    z-index: 2;
+}
+	
+.nav-links {
+		flex-direction: column;
+		position: fixed;
+		background: #fbce11;
+		height: 100vh;
+		width: 100%;
+		clip-path: circle(0px at 90% -10%);
+		-webkit-clip-path: circle(0px at 90% -10%);
+		transition: all 1s ease-out;
+	}
+    
+.nav-links.open {
+		clip-path: circle(150% at 90% -10%);
+		-webkit-clip-path: circle(150% at 90% -10%);
+	}
+	
+.logo-nav-child {
+		display: flex;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+.link-text {
+		font-size: 5vw;
+	}
+    
+/*---------------------------------------------------------------------------------Home Page--*/
+    
+.home-c2-container{
+    margin: auto;
+    width: 700px;
+    height: auto;
+    text-align: center;
+    left: 0px;
+}
+    
+.home-c2-container > h2 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+    
+.home-c2-container > p2{
+    font-size: 27px;
+}
+    
+.nl-name {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+    
+.nl-email {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+    
+.nl-subscribe {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+    
+/*----------------------------------------------------------------------------------Cafe Page--*/
+    
+.menu-special{
+    width:100%;
+}
+    
+.s-img {
+    width: 220px;
+    }
+    
+.special-name {
+    font-size: 20px;
+    }
+    
+.menu-info {
+        width: 100%;
+        font-size: 19px;
+    }
+    
+.meals-column1of4 {
+     width:50%;
+}
+    
+.meals-column2of4 {
+    width:50%;
+    padding-left: 15.5%;
+}
+    
+.meals-column3of4 {
+        width:50%;
+    }
+    
+.meals-column4of4 {
+    width:50%;
+    padding-left: 15.5%;
+}
+    
+.hd-left {
+    width: 100%;
+    }
+    
+.sd-1{
+        width: 100%;
+    }
+    
+.sd-text{
+        text-align: center;
+    }
+    
+/*----------------------------------------------------------------------------------Courses page--*/
+    
+.cc2-img-con{
+    order: 3;
+    }
+    
+.cc2-img1 {
+    width: 32vw;
+    }
+}
+    
+/*-----------------------------------------------------------------------------Second Break Point--*/
