@@ -733,7 +733,9 @@ font-family: Segoe Script;
     height: 150px;
 }
 
-/*-------------------------------------------COURSES-----------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------*/
+/*----------------------------------------COURSES PAGE---------------------------------------------*/
+/*--------------------------------------------------------------------------------Shop Hero Content*/
 
   #myVideo {
       width: 100%;
@@ -754,6 +756,8 @@ font-family: Segoe Script;
         font-family: Segoe Script;
         font-size: 53px;
     }
+
+/*-----------------------------------------------------------------------------------Shop Content 1*/
 
 .courses-content-2{
         display: flex;
@@ -799,6 +803,8 @@ font-family: Segoe Script;
     font-family: Segoe Script;
 }
 
+/*-----------------------------------------------------------------------------------Shop Content 2*/
+
 .courses-content2{
     background-color: #474436;
     width: 100%;
@@ -840,6 +846,8 @@ font-family: Segoe Script;
 .cc2-text2{
     font-size: 26px;
 }
+
+/*-----------------------------------------------------------------------------------Form content*/
 
 .f-title-con{
     text-align: center;
@@ -912,6 +920,313 @@ font-family: Segoe Script;
     text-align: center;
 }
 
+/*-------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------SHOP PAGE---------------------------------------------*/
+/*--------------------------------------------------------------------------------Shop Hero Content*/
+
+.shop-content-1{
+    width: 100%;
+    height: auto;
+    background-color: #E0D0B7;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5vw;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.sc1-img-container{
+    text-align: center;
+    width: 350px;
+}
+
+.sc1-img{
+    width: 350px;
+}
+
+.sc1-text-container{
+    width: 750px;
+    text-align: center;
+}
+
+.sc1-h{
+    font-family: Segoe Script;
+    font-size: 50px;
+}
+
+.sc1-p{
+    font-size: 23px;
+}
+
+/*-------------------------------------------------------------------------------Shop Hero Content2*/
+
+.shop-content-2{
+    text-align: center;
+}
+
+.sc2-title{
+    display: inline-block;
+    width: 100%;
+    font-family: Segoe Script;
+    font-size: 30px;
+    background-color: #474436;
+    color: #FFFFFF;
+    padding:5px;
+}
+
+.sc2-title2{
+    display: inline-block;
+    width: 100%;
+    font-family: Segoe Script;
+    font-size: 25px;
+    color: #000000;
+    padding:5px;
+}
+
+/*------------------------------------------------------------------------------------- hexagons row1*/
+
+.sc2-flex1{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.sc2-flex1-box1{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c1.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sc2-flex1-box2{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c2.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sc2-flex1-box3{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c3.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------------------------------------------------------------------------------------- hexagons row2*/
+
+.sc2-flex2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.sc2-flex2-box1{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c4.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sc2-flex2-box2{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c5.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sc2-flex2-box3{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c6.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------------------------------------------------------------------------------------- hexagons row3*/
+
+.sc2-flex3{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.sc2-flex3-box1{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c7.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sc2-flex3-box2{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c8.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sc2-flex3-box3{
+    width: 320px;
+    height: 320px;
+    background-color: #474436;
+    margin: 3px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-image: url(images/shop/c9.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*------------------------------------------------------------------------------------- content3*/
+
+.shop-content-3{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #ead7ba;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.sc3-img-con{
+    width: 30%;
+}
+
+.sc3-img{
+    width: 210px;
+}
+
+.sc3-text-con{
+    width:760px;
+    padding: 5px;
+}
+
+.sc3-title{
+    font-family: Segoe Script;
+    font-size:32px;
+}
+
+.sc3-text{
+    font-family: Segoe UI;
+    font-size: 16px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------ABOUT US PAGE-----------------------------------------*/
+/*-----------------------------------------------------------------------------Get in touch section*/
+.au-content-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:3vw;
+}
+
+.au-c1-left{
+    width: 750px;
+    text-align: center;
+}
+
+.ac-c1-title{
+    background-color: #474436;
+    width: 100%;
+    display: inline-block;
+    color: #FFF;
+    font-size: 30px;
+    font-family: Segoe Script;
+    padding: 5px;
+}
+
+.ac-c1-text{
+    text-align: left;
+    width: 300px;
+    margin: auto;
+}
+
+.ac-links{
+    color:#000000;
+}
+
+.au-c1-img{
+    width: 350px;
+}
+
+/*----------------------------------------------------------------------------Our Story section*/
+
+.au-c2-title{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: #474436;
+    font-size: 30px;
+    color: #FFF;
+    padding: 5px;
+    font-family: Segoe Script;
+}
+
+.c2-flex-con{
+    text-align: center;
+}
+
+.c2-headers{
+    font-size:40px;
+    font-family: Segoe Script;
+    width: 100%;
+    display: inline-block;
+}
+
+.c2-paragraphs{
+    font-family: Segoe UI;
+    width: 1000px;
+    margin: auto;
+}
+
+.c2-img-left{
+    width:500px;
+}
+
+.c2-img-right{
+    width:500px;
+}
 /*------------------------------------------------------------------------------------- footer*/
 footer{
     background-color: #474436;
@@ -920,6 +1235,11 @@ footer{
     padding: 5px;
     color: #FFFFFF;
 }
+
+
+
+
+
 /*------------------------------------RESPONSIVE CSS DESIGN-----------------------------------*/
 /*-------------------------------------------------------------------------First Break Point--*/
 @media screen and (max-width: 1099px) {
@@ -969,7 +1289,8 @@ footer{
 		font-size: 5vw;
 	}
     
-/*---------------------------------------------------------------------------------Home Page--*/
+
+
     
 .home-c2-container{
     margin: auto;
@@ -1060,6 +1381,36 @@ footer{
     
 .cc2-img1 {
     width: 32vw;
+    }
+    
+/*----------------------------------------------------------------------------------shop page--*/
+.sc2-flex1-box1, .sc2-flex1-box2, .sc2-flex1-box3, .sc2-flex2-box1, .sc2-flex2-box2, .sc2-flex2-box3, .sc2-flex3-box1, .sc2-flex3-box2, .sc2-flex3-box3{
+    width: 375px;
+    height: 375px;
+    }
+
+/*----------------------------------------------------------------------------------About us page--*/
+    
+    .au-c1-left{
+        width:100%;
+    }
+    
+    .au-c1-right{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .au-c1-img{
+        width: 435;
+    }
+    
+    .c2-paragraphs{
+        width: 100%;
+    }
+    
+    .c2-img-right{
+        display: none;
     }
 }
     

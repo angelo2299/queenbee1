@@ -5,3 +5,5 @@ const links = document.querySelector('.nav-links li');
 hamburger.addEventListener("click",() => {
 	navLinks.classList.toggle("open");
 });
+
+var video = document.getElementById("myVideo");
