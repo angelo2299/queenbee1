@@ -371,7 +371,7 @@ body{
 
 /*--------------------------------------------------------------------------- Social Media Section*/
 .social-media-section{
-    width: 100%;
+    width: 90%;
     padding: 20px;
     display: flex;
     justify-content: space-around;
