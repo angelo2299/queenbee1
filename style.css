@@ -1253,7 +1253,17 @@ footer{
     color: #FFFFFF;
 }
 
+.footer-left{
+    text-align: left;
+}
 
+.footer-center{
+    text-align: center;
+}
+
+.footer-right{
+    text-align: right;
+}
 
 
 
@@ -1435,8 +1445,8 @@ footer{
         display: none;
     }
 }
-    
-/*-----------------------------------------------------------------------------Second Break Point--*/
+
+
 /*-----------------------------------------------------------------------------Second Break Point--*/
 @media screen and (max-width: 720px){
 /*---------------------------------------------------------------------------------------Homepage--*/    
@@ -1516,4 +1526,17 @@ footer{
         flex-direction: column;
         text-align: center;
     }
+    
+    /*----------------------------------------------------------------------------Footer--*/
+.footer-left{
+    text-align: center;
+}
+
+.footer-center{
+    text-align: center;
+}
+
+.footer-right{
+    text-align: center;
+}
 }
