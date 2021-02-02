@@ -53,6 +53,8 @@ body{
 		background-color: #fbce11;
 	}
 /*--------------------------------------------------------------------------------- Navigation Bar*/
+
+
 .nav-parent{
 		display:block;
 		top:0;
@@ -87,6 +89,7 @@ body{
     background-size: contain;
     background-position-x: 1vw;
 }
+
 
 .nav-links{
 		display: flex;
@@ -127,6 +130,10 @@ body{
 		transform: scaleX(1);
 		transform-origin: bottom left;
 	}
+
+.active{
+    text-decoration: underline;
+}
 
 /*------------------------------------------------------------------------------------------------*/
 /*----------------------------------------HOMEPAGE------------------------------------------------*/
@@ -1415,3 +1422,83 @@ footer{
 }
     
 /*-----------------------------------------------------------------------------Second Break Point--*/
+/*-----------------------------------------------------------------------------Second Break Point--*/
+@media screen and (max-width: 720px){
+/*---------------------------------------------------------------------------------------Homepage--*/    
+    .nav-parent{
+        height: 15vw;
+    }
+    
+    .path-1-cc{
+        height: 15vw;
+    }
+    
+    
+    .logo-nav-child{
+        top: 4vw;
+    }
+    
+    .parallax-bg{
+        height: calc(690px - 20vw);
+    }
+    
+    .home-content-1-image img{
+        width: 300px;
+    }
+    
+    .home-content-1-text h1{
+        font-size: 30px;
+    }
+    
+    .home-content-1-text p1{
+        font-size: 20px;
+    }
+    
+    .home-c2-container{
+        width:100%;
+        padding: 10px 1px 10px 1px;
+    }
+    
+    .home-c2-container > h2{
+        font-size: 30px;
+        max-width: 96vw;
+    }
+    
+    .home-c2-container > p2{
+        font-size: 20px;
+        display: inline-block;
+        max-width: 96vw;
+    }
+    .hc3-text > h3{
+        font-size: 26px;
+    }
+    
+    .hc3-text > p3{
+        font-size: 20px;
+    }
+    
+    .nl-title{
+        font-size: 25px;
+    }
+    
+    .newsletter-su-content{
+        width: unset;
+    }
+    
+    .nl-form{
+        max-width: 430px;
+        width:unset;
+        margin: auto;
+    }
+    
+    .sm-icons{
+        flex-direction: column;
+        width: 27vw;
+    }
+    
+    footer{
+        align-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
