@@ -397,9 +397,13 @@ body{
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
-  width: 160px;
+  width: 80px;
   height: 80px;
    
+}
+
+#facebook:hover{
+    background-image: url(images/home/hover/Facebook%20Icon.png);
 }
 
 #youtube {
@@ -409,9 +413,12 @@ body{
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
-  width: 160px;
+  width: 80px;
   height: 80px;
- 
+}
+
+#youtube:hover {
+    background-image: url(images/home/hover/Youtube%20Icon.png);
 }
 
 #instagram {
@@ -421,9 +428,12 @@ body{
   display: block;
   margin: 0 auto;
   text-indent: -9999px;
-  width: 170px;
+  width: 80px;
   height: 80px;
- 
+}
+
+#instagram:hover {
+    background-image: url(images/home/hover/Instagram%20Icon.png);
 }
 
 /*------------------------------------------------------------------------------------------------*/
@@ -1330,6 +1340,11 @@ footer{
     margin-right: 100px;
     margin-left: 100px;
 }
+    
+     .sm-icons{
+        flex-direction: column;
+        width: 27vw;
+    }
     
 /*----------------------------------------------------------------------------------Cafe Page--*/
     
