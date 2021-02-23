@@ -153,7 +153,8 @@ body{
 	}
 	
 	.home-content-1-image img {
-		width: 400px;
+		width: 240px;
+        padding: 80px;
 	}
 	
 	.home-content-1-text{
@@ -165,7 +166,7 @@ body{
 	
 	.home-content-1-text h1{
 		font-family: segoe script;
-		font-size: 55px;
+		font-size: 40px;
 		margin-bottom: 10px;
 	}
 	
@@ -293,7 +294,7 @@ body{
 
 .hc3-text > h3{
     font-family: segoe script;
-    font-size: 55px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -304,7 +305,6 @@ body{
 
 /*----------------------------------------------------------------------------- Sign-up Newsletter*/
 .newsletter-su-content{
-    width: 100%;
     height: auto;
     background-color: #474436;
     color: white;
@@ -317,15 +317,14 @@ body{
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 25px;
 }
 
 .nl-title{
-    font-size: 44px;
+    font-size: 24px;
 }
 
 .f-name {
-    font-size: 34px;
+    font-size: 21px;
 }
 
 .nl-name {
@@ -347,22 +346,31 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     order: 3;
-    height: 49px;
-    width: 258px;
-    font-size: 30px;
+    height: 32px;
+    width: 165px;
+    font-size: 21px;
      margin-right: 50px;
     margin-left: 50px;
+    border: none;
+    border-radius: 29px;
+    background-color: #FBCE11;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.nl-subscribe:hover{
+    background-color: #ffffff;
 }
 
 .textbox{
-    width: 348px;
-    height: 42px;
+    width: 225px;
+    height: 21px;
     padding-top: 10px;
     
 }
 
 .nl-offer{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .nl-offer b{
@@ -509,6 +517,8 @@ body{
     font-family: segoe script;
     margin-bottom: 5px;
     color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .menu-special{
@@ -524,7 +534,8 @@ body{
     width: 100%;
     display: block;
     color: #FFFFFF;
-    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .special-contents{
@@ -547,13 +558,16 @@ body{
     font-size: 2vw;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: 10px;
 }
 
 .menu-info{
     display: inline-block;
-    width: 14vw;
+    width: 13vw;
     font-size: 1.5vw;
     text-align: center;
+    padding: 5px;
+    margin-bottom: 7vw;
 }
 /*--------------------------------------------------------------------------------MEALS-Cafe Menu*/
 
@@ -584,6 +598,7 @@ body{
 
 .meal-info{
     color: #EFFEBE;
+    padding-bottom: 10px;
 }
 
 
@@ -671,6 +686,12 @@ body{
     margin-left: 60px;
 }
 
+.button-dgcr:hover{
+    background-color: #FBCE11;
+    color: #474436;
+}
+
+
 /*----------------------------------------------------------------------------SOFTDRINKS-Cafe Menu*/
 .softdrinks-container{
     display: flex;
@@ -735,6 +756,11 @@ font-family: Segoe Script;
     border-radius: 39px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 125px;
+}
+
+.button-one:hover{
+    background-color: #FBCE11;
+    color: #474436;
 }
 
 .loy-img-con{
@@ -866,13 +892,13 @@ font-family: Segoe Script;
 
 .cc2-title2{
     font-size: 30px;
-    text-decoration: underline;
 }
 
 
 
 .cc2-text2{
     font-size: 26px;
+    padding-bottom: 15px;
 }
 
 /*-----------------------------------------------------------------------------------Form content*/
@@ -884,7 +910,7 @@ font-family: Segoe Script;
 .courses-form{
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: auto;
     height: auto;
     text-align: center;
     text-align: left;
@@ -899,15 +925,14 @@ font-family: Segoe Script;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 120px;
 }
 
 .cfe-con{
-    width: 50%;
+    width: auto;
 }
 
 .cfe-con-ai{
-    width: 100%;
+    width: auto;
 }
 
 .cf-enquiry-text{
@@ -939,11 +964,19 @@ font-family: Segoe Script;
     border: none;
     border-radius: 39px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: -60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.button-courses:hover{
+    background-color: #FBCE11;
+    color: #474436;
+    ;
 }
 
 .f-end{
     text-align: center;
+    padding: 5px;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
@@ -991,8 +1024,9 @@ font-family: Segoe Script;
 }
 
 .sc2-title{
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: auto;
+    height: auto;
     font-family: Segoe Script;
     font-size: 30px;
     background-color: #474436;
@@ -1001,8 +1035,8 @@ font-family: Segoe Script;
 }
 
 .sc2-title2{
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: auto;
     font-family: Segoe Script;
     font-size: 25px;
     color: #000000;
@@ -1197,6 +1231,7 @@ font-family: Segoe Script;
 .sc3-text-con{
     width:760px;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .sc3-title{
@@ -1228,8 +1263,8 @@ font-family: Segoe Script;
 
 .ac-c1-title{
     background-color: #474436;
-    width: 100%;
-    display: inline-block;
+    width: auto;
+    display: block;
     color: #FFF;
     font-size: 30px;
     font-family: Segoe Script;
@@ -1253,8 +1288,8 @@ font-family: Segoe Script;
 /*----------------------------------------------------------------------------Our Story section*/
 
 .au-c2-title{
-    width: 100%;
-    display: inline-block;
+    width: auto;
+    display: block;
     text-align: center;
     background-color: #474436;
     font-size: 30px;
@@ -1272,6 +1307,7 @@ font-family: Segoe Script;
     font-family: Segoe Script;
     width: 100%;
     display: inline-block;
+    margin-top: 10px;
 }
 
 .c2-paragraphs{
@@ -1282,10 +1318,12 @@ font-family: Segoe Script;
 
 .c2-img-left{
     width:500px;
+    margin-bottom: 10px;
 }
 
 .c2-img-right{
     width:500px;
+    margin-bottom: 10px;
 }
 /*------------------------------------------------------------------------------------- footer*/
 footer{
@@ -1371,7 +1409,7 @@ footer{
 }
     
 .home-c2-container > h2 {
-    font-size: 55px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
     
@@ -1414,8 +1452,10 @@ footer{
     }
     
 .menu-info {
-        width: 100%;
+        width: auto;
+        height: auto;
         font-size: 19px;
+        margin-bottom: 5px;
     }
     
 .meals-column1of4 {
@@ -1474,17 +1514,11 @@ footer{
     font-size: 5vw;
 }
 
-.courses-form{
-    width: 100%;
-}
 
 .cf-enquiry-box-ai{
     width: 260px;
 }
 
-.cf-enquiry{
-    margin-left: 15vw;
-}
 
 
 
@@ -1579,9 +1613,6 @@ footer{
         font-size: 25px;
     }
     
-    .newsletter-su-content{
-        width: unset;
-    }
     
     .nl-form{
         max-width: 430px;
@@ -1738,10 +1769,6 @@ footer{
 
     .cc2-title{
         font-size: 22px;
-    }
-
-    .cfe-con{
-        width: 100%;
     }
 
     .wide-img{
